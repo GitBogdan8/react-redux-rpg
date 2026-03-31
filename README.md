@@ -1,3 +1,38 @@
+# React-Redux RPG Engine
+
+![Gameplay Preview](Screenshots/menu.png) ## 🎯 Project Scope & Purpose
+This project is a browser-based RPG engine designed to demonstrate advanced **React** patterns and complex state management using **Redux**. The goal was to create a synchronized game world where multiple entities (Player & NPCs) interact in real-time within a predictable state container.
+
+## 🚀 Key Technical Implementations
+
+### 1. Centralized Game Loop (Redux TICK)
+Unlike traditional React apps that rely only on component lifecycle, this game uses a **centralized TICK action** dispatched via Redux. This allows:
+* Synchronized movement for all NPCs.
+* Real-time combat interaction checks.
+* Consistent state transitions across the entire game world.
+
+### 2. Dynamic Map & Procedural Generation
+* Implemented logic for terrain generation including trees, rocks, and water boundaries.
+* **Collision Detection:** Integrated a coordinate-based system to restrict movement for both Player and AI entities.
+
+### 3. Entity AI & Mechanics
+* **NPC Behavior:** Automated movement patterns and state-based logic for enemies.
+* **Combat System:** Directional attack logic and health-based entity removal managed through Redux reducers.
+* **UI Rendering:** Optimized React rendering to update only the necessary map tiles and UI overlays.
+
+## 🛠 Tech Stack & Tools
+* **Frontend Library:** React (Functional Components, Hooks)
+* **State Management:** Redux (Store, Actions, Reducers)
+* **Language:** JSX / JavaScript (ES6+)
+* **Build Tool:** Node.js / Create-React-App environment
+* **Version Control:** Git / SourceTree
+
+## 📁 How to Run (Local Setup)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/GitBogdan8/react-redux-rpg-ibm.git](https://github.com/GitBogdan8/react-redux-rpg-ibm.git)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
