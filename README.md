@@ -2,8 +2,8 @@
 
 ### 🎯 Scope
 This is a personal project developed to explore advanced state management, real-time game logic, and the React ecosystem. The main goal was to build a functional browser-based RPG engine where complex entity interactions are handled through a predictable data flow.
-* **Context:** Independent Personal Project
-* **Status:** Functional Prototype / Engine Core
+* **Context:** Student practice - IBM Summer School 2025 - Javascript & React
+* **Status:** Engine Core
 
 ### 🚀 Objectives
 * **Centralized Game Loop:** Implemented a Redux-driven `TICK` system to synchronize NPC AI, combat, and world updates.
