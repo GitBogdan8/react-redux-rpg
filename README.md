@@ -1,36 +1,29 @@
-# React-Redux RPG 
+# React-Redux RPG Engine
 
-![Gameplay Preview](Screenshots/menu.png) ## 🎯 Project Scope & Purpose
-This project is a browser-based RPG engine designed to demonstrate advanced **React** patterns and complex state management using **Redux**. The goal was to create a synchronized game world where multiple entities (Player & NPCs) interact in real-time within a predictable state container.
+### 🎯 Scope
+This is a personal project developed to explore advanced state management, real-time game logic, and the React ecosystem. The main goal was to build a functional browser-based RPG engine where complex entity interactions are handled through a predictable data flow.
+* **Context:** Independent Personal Project
+* **Status:** Functional Prototype / Engine Core
 
-## 🚀 Key Technical Implementations
+### 🚀 Objectives
+* **Centralized Game Loop:** Implemented a Redux-driven `TICK` system to synchronize NPC AI, combat, and world updates.
+* **Dynamic Map System:** Developed procedural generation for terrain (trees, rocks, water) with integrated collision detection.
+* **Entity Mechanics:** Designed player movement, directional attack logic, and health-based entity removal.
+* **AI Behavior:** Created state-based logic for NPC movement and basic automated interactions.
 
-### 1. Centralized Game Loop (Redux TICK)
-Unlike traditional React apps that rely only on component lifecycle, this game uses a **centralized TICK action** dispatched via Redux. This allows:
-* Synchronized movement for all NPCs.
-* Real-time combat interaction checks.
-* Consistent state transitions across the entire game world.
+### 🛠 Technologies
+* **Library:** React (Functional Components & Hooks)
+* **State Management:** Redux (Actions, Reducers, Store)
+* **Language:** JavaScript
+* **Environment:** Node.js
 
-### 2. Dynamic Map & Procedural Generation
-* Implemented logic for terrain generation including trees, rocks, and water boundaries.
-* **Collision Detection:** Integrated a coordinate-based system to restrict movement for both Player and AI entities.
-
-### 3. Entity AI & Mechanics
-* **NPC Behavior:** Automated movement patterns and state-based logic for enemies.
-* **Combat System:** Directional attack logic and health-based entity removal managed through Redux reducers.
-* **UI Rendering:** Optimized React rendering to update only the necessary map tiles and UI overlays.
-
-## 🛠 Tech Stack & Tools
-* **Frontend Library:** React (Functional Components, Hooks)
-* **State Management:** Redux (Store, Actions, Reducers)
-* **Language:** JSX / JavaScript (ES6+)
-* **Build Tool:** Node.js / Create-React-App environment
-* **Version Control:** Git / SourceTree
-
-## 📁 How to Run (Local Setup)
-1. **Clone the repository:**
+### 📁 How to Run
+1. **Prerequisites:** Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
+2. **Download:** Clone this repository or click **Code** -> **Download ZIP** and extract the files.
+3. **Install:** Open a terminal in the project folder and run:
    ```bash
-   git clone [https://github.com/GitBogdan8/react-redux-rpg-ibm.git](https://github.com/GitBogdan8/react-redux-rpg-ibm.git)
+   npm install
+
 
 
 # Getting Started with Create React App
