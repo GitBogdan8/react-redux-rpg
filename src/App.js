@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="game-title">Rpg Maker Spin-off</h1>
+        <h1 className="game-title">IBM - RPG</h1>
         <span className="author-name">by Chirila Bogdan</span>
       </header>
       <main>
