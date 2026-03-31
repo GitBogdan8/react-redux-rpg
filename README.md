@@ -1,4 +1,4 @@
-# React-Redux RPG Engine
+# React-Redux RPG
 
 ### 🎯 Scope
 This is a personal project developed to explore advanced state management, real-time game logic, and the React ecosystem. The main goal was to build a functional browser-based RPG engine where complex entity interactions are handled through a predictable data flow.
