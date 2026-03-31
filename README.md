@@ -1,7 +1,7 @@
 # React-Redux RPG
-
-### Gameplay
-| ![Full Page](screenshots/Photo1.png) | ![Objects](screenshots/Photo2.png) | ![Moving enemy](screenshots/Photo3.png) |
+![Full Page](screenshots/Photo1.png)
+![Objects](screenshots/Photo2.png)
+![Moving enemy](screenshots/Photo3.png)
 
 ### 🎯 Scope
 This project was developed as part of the **IBM Summer School 2025**, focusing on modern web development practices. The primary goal was to develop a browser-based RPG engine that utilizes **Redux** for complex state synchronization and **React** for dynamic UI rendering.
