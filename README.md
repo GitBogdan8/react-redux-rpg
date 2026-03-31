@@ -1,4 +1,4 @@
-# React-Redux RPG Engine
+# React-Redux RPG 
 
 ![Gameplay Preview](Screenshots/menu.png) ## 🎯 Project Scope & Purpose
 This project is a browser-based RPG engine designed to demonstrate advanced **React** patterns and complex state management using **Redux**. The goal was to create a synchronized game world where multiple entities (Player & NPCs) interact in real-time within a predictable state container.
