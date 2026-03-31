@@ -1,9 +1,4 @@
 # React-Redux RPG
-<div align="center">
-  <img src="screenshots/Photo1.png" width="31%" />
-  <img src="screenshots/Photo2.png" width="31%" />
-  <img src="screenshots/Photo3.png" width="31%" />
-</div>
 ![Full Page](screenshots/Photo1.png)
 ![Objects](screenshots/Photo2.png)
 ![Moving enemy](screenshots/Photo3.png)
