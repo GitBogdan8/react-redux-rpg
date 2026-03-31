@@ -1,3 +1,31 @@
+# React-Redux RPG
+
+### 🎯 Scope
+This project was developed as part of the **IBM Summer School 2025**, focusing on modern web development practices. The primary goal was to develop a browser-based RPG engine that utilizes **Redux** for complex state synchronization and **React** for dynamic UI rendering.
+* **Context:** Student practice - IBM Summer School 2025 (Javascript & React)
+* **Status:** Engine Core
+
+### 🚀 Objectives
+* **Centralized Game Loop:** Implemented a Redux-driven `TICK` system to synchronize NPC AI, combat, and world updates.
+* **Dynamic Map System:** Developed procedural generation for terrain (trees, rocks, water) with integrated collision detection.
+* **Entity Mechanics:** Designed player movement, directional attack logic, and health-based entity removal.
+* **AI Behavior:** Created state-based logic for NPC movement and basic automated interactions.
+
+### 🛠 Technologies
+* **Library:** React (Functional Components & Hooks)
+* **State Management:** Redux (Actions, Reducers, Store)
+* **Language:** JavaScript
+* **Environment:** Node.js
+
+### 📁 How to Run
+1. **Prerequisites:** Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
+2. **Download:** Clone this repository or click **Code** -> **Download ZIP** and extract the files.
+3. **Install:** Open a terminal in the project folder and run:
+   ```bash
+   npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
