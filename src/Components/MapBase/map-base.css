@@ -1,0 +1,123 @@
+.page-container {
+  width: 100%;
+  max-width: 500px; 
+  margin: 0 auto;
+  aspect-ratio: 1 / 1; /* Patrat */
+}
+
+.viewport-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ascunde orice depășire */
+}
+.map-content {
+  position: absolute; /* Permite mișcarea hărții */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s ease-in-out; /* Animație pentru mișcare */
+  overflow: hidden;
+}
+
+.map-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border: 5px solid #333; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+.map-table tr{
+  height: 10%;
+}
+
+.map-cell {
+  width: 10%;  /* 10 columns => each cell is 10% wide */
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  background-image: url('./Sprites/grass.jpeg');
+  background-repeat: repeat;
+  background-size: 48px 48px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.player-cell{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; 
+}
+
+.obstacle-cell{
+  width: 10%; 
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  background-image: url('./Sprites/tree.png'), url('./Sprites/grass.jpeg');
+  background-repeat: no-repeat, repeat;
+  background-size: contain, cover;
+  background-size: 48px 48px, 48px 48px;
+  box-sizing: border-box; 
+}  /*adaugam textura celulelor de tabel cu cea de copac astfel incat sa nu ne ramana un patrat alb in spatele copacului*/
+
+.rock-cell {
+  width: 10%; 
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  background-image: url('./Sprites/rock.png'), url('./Sprites/grass.jpeg');
+  background-repeat: no-repeat, repeat;
+  background-size: contain, cover;
+  background-size: 48px 48px, 48px 48px;
+  box-sizing: border-box; 
+}
+
+.water-cell {
+  width: 10%; 
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  background-image: url('./Sprites/water.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-size: 48px 48px;
+  box-sizing: border-box;
+}
+
+.attack-line {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: yellow;
+  opacity: 0.8;
+  border-radius: 4px;
+  z-index: 10; /* Deasupra obstacolelor si inamicilor*/
+  transition: transform 0.1s ease-in-out;
+}
+
+.npc {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 8;
+  
+}
+
+.npc-health-bar {
+  position: absolute;
+  bottom: -10px; 
+  left: 5%;
+  width: 90%;
+  height: 4px; 
+  background: rgba(68, 68, 68, 0.9); 
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.health-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #cc0000, #ff4444); 
+  transition: width 0.3s ease;
+  border-radius: 1px;
+}
+
