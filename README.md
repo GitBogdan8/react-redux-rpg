@@ -1,8 +1,8 @@
 # React-Redux RPG
 
 ### 🎯 Scope
-This is a personal project developed to explore advanced state management, real-time game logic, and the React ecosystem. The main goal was to build a functional browser-based RPG engine where complex entity interactions are handled through a predictable data flow.
-* **Context:** Student practice - IBM Summer School 2025 - Javascript & React
+This project was developed as part of the **IBM Summer School 2025**, focusing on modern web development practices. The primary goal was to develop a browser-based RPG engine that utilizes **Redux** for complex state synchronization and **React** for dynamic UI rendering.
+* **Context:** Student practice - IBM Summer School 2025 (Javascript & React)
 * **Status:** Engine Core
 
 ### 🚀 Objectives
